@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Audio Recorder</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/static/js/audio.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Give your feedback</h1>
+		<div class="row">
+			<div class="col-sm">
+				<button id="startButton1" onclick="startRecording(1)" class="btn btn-success" style="background-color: rgb(64, 249, 119); color:black">Start Recording 1</button>
+				<button id="stopButton1" onclick="stopRecording(1)" class="btn btn-danger" disabled>Stop Recording 1</button>
+				<audio id="audioPreview1" controls></audio>
+			</div>
+			<div class="col-sm">
+				<button id="startButton2" onclick="startRecording(2)" class="btn btn-success" style="background-color: rgb(64, 249, 119); color:black">Start Recording 2</button>
+				<button id="stopButton2" onclick="stopRecording(2)" class="btn btn-danger" disabled>Stop Recording 2</button>
+				<audio id="audioPreview2" controls></audio>
+			</div>
+			<div class="col-sm">
+				<button id="startButton3" onclick="startRecording(3)" class="btn btn-success" style="background-color: rgb(64, 249, 119); color:black">Start Recording 3</button>
+				<button id="stopButton3" onclick="stopRecording(3)" class="btn btn-danger" disabled>Stop Recording 3</button>
+				<audio id="audioPreview3" controls></audio>
+			</div>
+		</div>
+		<button id="submitButton" onclick="submitRecordings()" class="btn btn-primary mt-3" disabled>Submit Recordings</button>
+	</div>
+</body>
+</html>
