@@ -1,0 +1,107 @@
+body {
+    background-color: #f5f5f5;
+}
+h1 {
+    color: #007f00;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #888888;
+    border-radius: 10px;
+}
+button {
+    color: gray;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:disabled {
+    background-color: #c1c1c1;
+    cursor: default;
+}
+button:hover {
+    background-color: #005e00;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #888888;
+}
+audio {
+    display: block;
+    margin: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
+}
+#submitButton {
+    background-color: #00a800;
+}
+#submitButton:hover {
+    background-color: #008a00;
+}
+
+#c1{
+    background-color: rgb(6, 6, 129);
+    color: white;
+}
+.nav{
+    color:white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    display:block;
+    text-align: center;
+    padding: 3px;
+}
+.nav:hover{
+    background-color: white;
+    color: rgb(6, 6, 129);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+.bls{
+    color: rgb(6, 6, 129);
+    font-size: 25px;
+    
+}
+.bl{
+    color:gray;
+    font-size: 20px;
+}
+.card{
+    height: auto;
+}
+.card-body{
+    background-color: rgb(53, 53, 197);
+    color:white;
+    border-radius: 20px;
+}
+.footer{
+    background-color: rgb(6, 6, 129);
+    color: white;
+}
+.abut{
+    text-decoration: none;
+    color:white;
+}
+.abut:hover{
+    color:white;
+}
