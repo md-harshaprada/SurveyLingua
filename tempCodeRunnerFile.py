@@ -1,0 +1,1 @@
+nlptown/bert-base-multilingual-uncased-sentiment
