@@ -1,0 +1,142 @@
+/* Body styles */
+body {
+    background-color: #f5f5f5;
+  }
+  
+  /* Heading styles */
+  h3{
+    color: #007f00;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #888888;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
+  /* Text input styles */
+  .text input[type="text"], .text input[type="email"], .text input[type="password"] {
+    width: 420px !important;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .text input[type="text"]:focus, .text input[type="email"]:focus, .text input[type="password"]:focus {
+    border-bottom: 2px solid #007f00;
+    outline: none;
+  }
+  
+  /* Radio button styles */
+  .form-check {
+    margin-bottom: 10px;
+  }
+  
+  .form-check input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .form-check label {
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  button {
+    color: gray;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:disabled {
+    background-color: #c1c1c1;
+    cursor: default;
+  }
+  
+  button:hover {
+    background-color: #005e00;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #888888;
+  }
+  
+  /* Audio preview styles */
+  audio {
+    display: block;
+    margin: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
+  }
+  
+  /* Submit button styles */
+  #submitButton {
+    background-color: #00a800;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #submitButton:hover {
+    background-color: #008a00;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #888888;
+  }
+  
+  /* Success message styles */
+  .success {
+    margin-top: 20px;
+    color: #007f00;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #007f00;
+  }
+  
+  input[type="text"],
+input[type="email"] {
+  width: 330px !important;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+  
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder {
+    opacity: 0.5;
+    font-size: 16px;
+  }
+  
