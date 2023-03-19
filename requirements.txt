@@ -1,6 +1,6 @@
 Flask==1.1.2
 openai==0.27.2
-openai_whisper==20230308
+openai_whisper==20230306
 passlib==1.7.4
 pymongo==3.12.3
 torch==1.11.0
